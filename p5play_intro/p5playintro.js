@@ -29,7 +29,7 @@ box.y = 100;
 box.w = 50;
 box.h = 50;
 box.color = "green";
-
+box.collider = "static" //fixed
 }
 
 
@@ -39,6 +39,8 @@ function draw() {
   if (ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2){//collisons
     ball.vel.x *= -1;
   }
-  if (ball.y < )
+  if (ball.y < 0 + ball.diameter / 2 || ball.y > height - ball.diameter / 2){
+    
+  }
 }
 
