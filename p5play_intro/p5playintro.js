@@ -23,7 +23,13 @@ ball.vel.y = 3;
 ball.bounciness = 1;
 ball.collider = "dynamic" //optional
 
-box
+box = new Sprite();
+box.x = 100;
+box.y = 100;
+box.w = 50;
+box.h = 50;
+box.color = "green";
+
 }
 
 
@@ -33,5 +39,6 @@ function draw() {
   if (ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2){//collisons
     ball.vel.x *= -1;
   }
+  if (ball.y < )
 }
 
