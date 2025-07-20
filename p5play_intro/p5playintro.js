@@ -10,7 +10,8 @@ function setup() {
   // Create a bouncing ball sprite
   // write your codes here
   ball - new Sprite()
-
+//location of ball
+ball.
 }
 
 function draw() {
