@@ -11,7 +11,9 @@ function setup() {
   // write your codes here
   ball - new Sprite()
 //location of ball
-ball.x - 100;
+ball.x = 100;
+ball.y = 200;
+
 }
 
 function draw() {
