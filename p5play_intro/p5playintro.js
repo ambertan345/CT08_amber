@@ -13,7 +13,9 @@ function setup() {
 //location of ball
 ball.x = 100;
 ball.y = 200;
-ball.diameter
+ball.diameter = 40;
+ball.color = "blue";
+
 }
 
 function draw() {
