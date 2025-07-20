@@ -16,7 +16,9 @@ ball.y = 200;
 ball.diameter = 40;
 ball.color = "blue";
 ball.vel.x = 3;
-ball.vel.y = 
+ball.vel.y = 3;
+ball.bounciness = 1;
+
 }
 
 function draw() {
