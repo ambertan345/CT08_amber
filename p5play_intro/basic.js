@@ -81,7 +81,7 @@ function setup() {
   // }
 
 
-  let groceries = []
+  let groceries = ["apple"]
 }
 
 // for i in Range(3):\
