@@ -81,21 +81,21 @@ function setup() {
 // }
 }
 
-for i in Range(3):\
+// for i in Range(3):\
 
-for(let i = 1, i <= 10, i++){i = 11
-  i = 10
-  .
-  .//code
-}
+// for(let i = 1, i <= 10, i++){i = 11
+//   i = 10
+//   .
+//   .//code
+// }
 
 
 
-function draw(){
-  fill(255, 0, 0); //rgb
-  ellipse(300, 100, 100, 100); //x-axis, y-axis, size
+// function draw(){
+//   fill(255, 0, 0); //rgb
+//   ellipse(300, 100, 100, 100); //x-axis, y-axis, size
 
-}
+// }
 
 function draw(){
   // fill(255, 0, 0);
