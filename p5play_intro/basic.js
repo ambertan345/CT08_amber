@@ -82,6 +82,7 @@ function setup() {
 
 
   let groceries = ["apple", "bread", "milk" ]
+  
 }
 
 // for i in Range(3):\
