@@ -87,6 +87,7 @@ function setup() {
   groceries.shift();
   groceries.splice(1, 0, "Kaya");
   console.log(groceries[4]);
+  for (let item of groceries)
   console.log
 }
 
