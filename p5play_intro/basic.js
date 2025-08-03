@@ -90,6 +90,9 @@ function setup() {
   for (let item of groceries){
     console.log(item);
   }
+  for (let i = 0; i < groceries.length; i++){
+    
+  }
   
 }
 
