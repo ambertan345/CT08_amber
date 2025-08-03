@@ -82,7 +82,7 @@ function setup() {
 
 
   let groceries = ["apple", "bread", "milk" ]
-  groceries
+  groceries.push("orange")
   console.log
 }
 
