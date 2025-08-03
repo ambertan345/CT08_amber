@@ -19,8 +19,8 @@ function setup() {
 
   // createCanvas(600, 400);//length and width of your canvas
   // background(220);//
-// createCanvas(600, 400);
-// background(220);
+  // createCanvas(600, 400);
+  // background(220);
 
 // console.log("Hello!");
 // textSize(16);
