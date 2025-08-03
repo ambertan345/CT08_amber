@@ -81,7 +81,7 @@ function setup() {
   // }
 
 
-  
+  let groceries = []
 }
 
 // for i in Range(3):\
