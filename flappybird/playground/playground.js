@@ -7,7 +7,7 @@ function preload(){
   bg = loadImage('../assests/background-day.png');
   base = loadImage('../assets/base.png');
   flapUpImg = loadImage('');
-  flapDownImg = loadImg
+  flapDownImg = loadImg('');
 }
 
 function setup(){
