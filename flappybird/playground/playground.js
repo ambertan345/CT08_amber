@@ -3,8 +3,8 @@ let bird, floor;
 let flapMidImg, bg, base;
 
 function preload(){
-  flapMidImg = loadimage('../assets/yellowbird-midflap.png');
-  bg = loadImage('../assests/background-day.png');
+  flapMidImg = loadimage('assets/yellowbird-midflap.png');
+  bg = loadImage('assests/background-day.png');
   base = loadImage('assets/base.png');
   flapUpImg = loadImage('assets/yellowbird-upflag.png');
   flapDownImg = loadImage('assets/yellowbird-downflap.png');
