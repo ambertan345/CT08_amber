@@ -47,5 +47,6 @@ function draw(){
     new Sprite(mouse.x, mouse.y, 30, 30, 'dynamic');
   }
 
-  fill("blue")
+  fill("blue");
+  textSize(14)
 }
