@@ -6,7 +6,7 @@ function preload(){
   flapMidImg = loadimage('../assets/yellowbird-midflap.png');
   bg = loadImage('../assests/background-day.png');
   base = loadImage('../assets/base.png');
-  flapUpImg = loadImage('assets');
+  flapUpImg = loadImage('assets/yellowbird-upflag.png');
   flapDownImg = loadImg('');
 }
 
