@@ -44,6 +44,6 @@ function draw(){
   }
 
   if(mouse.press()){
-    new Sprite(mouse.x, 2)
-  }0
-}0, 30, 30, 'dynamic'
+    new Sprite(mouse.x, 200, 30, 30, 'dynamic')
+  }
+}
