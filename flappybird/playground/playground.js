@@ -10,7 +10,7 @@ let bottomPipe, topPipe; //bottom first, then top pipe
 
 function preload(){
   flapMidImg = loadImage('assets/yellowbird-midflap.png');
-  bg = loadImage('assests/background-day.png');
+  bg = loadImage('assets/background-day.png');
   base = loadImage('assets/base.png');
   flapUpImg = loadImage('assets/yellowbird-upflag.png');
   flapDownImg = loadImage('assets/yellowbird-downflap.png');
