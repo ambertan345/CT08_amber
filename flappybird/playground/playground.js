@@ -113,7 +113,7 @@ function spawnPipePair(){
 
   topPipe = new Sprite(bird.x + 400, midY -gap-200, 52, 320, "static");
   topPipe.img = pipeImg;
-  topPipe.rotation = 100; //semi-circle turn
+  topPipe.rotation = 180; //semi-circle turn
 
   pipeGroup.add(topPipe);
 
