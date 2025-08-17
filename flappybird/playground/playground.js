@@ -87,7 +87,9 @@ function draw(){
     spawnPipePair();
   }
 
-  if (bird.collides(pipeGroup) || bird.collides(floor) )
+  if (bird.collides(pipeGroup) || bird.collides(floor) ) {
+    noLoop()
+  }
 
   // if(mouse.press()){
   //   new Sprite(mouse.x, mouse.y, 30, 30, 'dynamic');
