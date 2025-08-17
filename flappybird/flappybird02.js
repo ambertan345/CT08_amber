@@ -2,23 +2,12 @@
 let bird, floor;
 let flapMidImg, bg, base;
 
-let flapUpImg, flapDownImg;
-
-let pipeImg;//pipe image
-let pipeGroup;// to organise
-let bottomPipe, topPipe; //bottom first, then top pipe
-
 function preload(){
   flapMidImg = loadimage('assets/yellowbird-midflap.png');
   bg = loadImage('assests/background-day.png');
   base = loadImage('assets/base.png');
   flapUpImg = loadImage('assets/yellowbird-upflag.png');
   flapDownImg = loadImage('assets/yellowbird-downflap.png');
-
-  bg = loadImage('assets/background-day.png');
-  base = loadIMage('assets/base.png');
-
-  pipeImg = loadImage('assets/pipe-green.png'); 
 }
 
 function setup(){
@@ -46,13 +35,12 @@ function setup(){
   floor.collider = "static";
   floor.img = base
 
-  pipeGroup = new Group()
 }
 
 function draw(){
   image(bg, 0, 0, width, height);
 
-  if(kb.presses('space')||mouse.preses()) {
+  if(kb.presses('space'))||mouse.preses{
     bird.vel.y = -15;
     bird.sleeping = false;
   }
@@ -74,22 +62,9 @@ function draw(){
     bird.rotation = 0;
   }
 
-  //birdmovemtn
-  bird.x = bird.x + 3;
-  camera.x = bird.x;
-  floor.x = bird.x;
-
-  if (frameCount === 1) {
-    spawnPipePair(); //custom founctionw
+  if(mouse.press()){
+    new Sprite(mouse.x, mouse.y, 30, 30, 'dynamic');
   }
-
-  else if(frameCount % 120 ==0) {
-    spawnPipePair();
-  }
-
-  // if(mouse.press()){
-  //   new Sprite(mouse.x, mouse.y, 30, 30, 'dynamic');
-  // }
 
   fill("blue");
   textSize(14);
@@ -97,25 +72,4 @@ function draw(){
   text('isMoving: ' + bird.isMoing, 10, 40);
   text('sleeping: ' + bird.sleeping, 10, 60);
 
-  
-}
-
-
-
-function spawnPipePair(){
-  let gap = 60;
-  let midY = random(250, height-250);
-  //
-  bottomPipe = new Sprite(bird.x + 400, midY +gap+200, 52, 320, "static");
-  bottomPipe.img = pipeImg;
-
-  pipeGroup.add(bottomPipe);
-
-  topPipe = new Sprite(bird.x + 400, midY -gap-200, 52, 320, "static");
-  topPipe.img = pipeImg;
-  topPipe.rotation = 100; //semi-circle turn
-
-  pipeGroup.add(topPipe);
-
-  pipeGroup.layer = 0; //back most layer
 }
