@@ -87,6 +87,8 @@ function draw(){
     spawnPipePair();
   }
 
+  if 
+
   // if(mouse.press()){
   //   new Sprite(mouse.x, mouse.y, 30, 30, 'dynamic');
   // }
