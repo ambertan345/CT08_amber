@@ -110,7 +110,7 @@ function draw(){
   floor.x = bird.x;
 
   if (bird.collides(pipeGroup) || bird.collides(floor)){
-    
+    gameoverlabel = new sprite(width)
   }
 
 
