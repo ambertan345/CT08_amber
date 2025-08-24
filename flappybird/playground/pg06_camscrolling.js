@@ -187,7 +187,8 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
   //make it a string so can get each digit indiv rather than a value
   let scoreStr = str(score);
   //total width taken up by all digits
-  let totalWidth = scoreStr.length
+  let totalWidth = scoreStr.length * digitWidth;
+  //let 
 } 
 
 function spawnPipePair(){
