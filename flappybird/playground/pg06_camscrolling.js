@@ -181,7 +181,8 @@ function draw(){
 }
 
 function drawScore(x, y, score, digitWidth, digitHeight) {
-  
+
+  //clear 
 } 
 
 function spawnPipePair(){
