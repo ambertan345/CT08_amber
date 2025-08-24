@@ -182,7 +182,8 @@ function draw(){
 
 function drawScore(x, y, score, digitWidth, digitHeight) {
 
-  //clear 
+  //clear all old digit sprites
+  
 } 
 
 function spawnPipePair(){
