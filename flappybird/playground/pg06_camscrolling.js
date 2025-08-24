@@ -182,13 +182,13 @@ function draw(){
 
 function drawScore(x, y, score, digitWidth, digitHeight) {
 
-  //clear all old digit sprites
+  //clear all old digit sprit
   scoreDigit.removeAll();
   //make it a string so can get each digit indiv rather than a value
   let scoreStr = str(score);
   //total width taken up by all digits
   let totalWidth = scoreStr.length * digitWidth;
-  //let 
+  //start with 
 } 
 
 function spawnPipePair(){
