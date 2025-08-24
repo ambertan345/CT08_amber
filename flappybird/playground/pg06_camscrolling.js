@@ -189,7 +189,7 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
   //total width taken up by all digits
   let totalWidth = scoreStr.length * digitWidth;
   //start with x coords
-  let start
+  let startX = x - totalWidth
 } 
 
 function spawnPipePair(){
