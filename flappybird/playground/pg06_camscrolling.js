@@ -104,6 +104,7 @@ function draw(){
   text('sleeping: ' + bird.sleeping, 10, 60);
 
   bird.x += 3;
+  camera.x = bird.x
 }
 
 
