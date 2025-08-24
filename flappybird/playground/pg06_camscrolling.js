@@ -109,75 +109,75 @@ function draw(){
     text('isMoving: ' + bird.isMoing, 10, 40);
     text('sleeping: ' + bird.sleeping, 10, 60);
 
-  bird.x += 3;
-  camera.x = bird.x;
-  floor.x = bird.x;
+    bird.x += 3;
+    camera.x = bird.x;
+    floor.x = bird.x;
 
-  if (bird.collides(pipeGroup) || bird.collides(floor)){
-    gameoverLabel = new sprite(width/2, height/2, 192, 42)
-    gameoverLabel.img = 
-    gameoverLabel
-  }
+    if (bird.collides(pipeGroup) || bird.collides(floor)){
+        gameoverLabel = new sprite(width/2, height/2, 192, 42)
+        gameoverLabel.img = 
+        gameoverLabel
+    }
 
-  }
-  if ( kb.presses('space') || mouse.presses()) {
-    bird.vel.y = -5;
-    bird.sleeping = false;
-  }
-  
-  if (bird.vel.y < -1){
-    bird.img = flapUpImg;
-    bird.rotation = -1;
+    }
+    if ( kb.presses('space') || mouse.presses()) {
+        bird.vel.y = -5;
+        bird.sleeping = false;
+    }
+    
+    if (bird.vel.y < -1){
+        bird.img = flapUpImg;
+        bird.rotation = -1;
 
-  }
+    }
 
-  else if (bird.vel.y > 1){
-    bird.img = flapDownImg;
-    bird.rotation = 30;
+    else if (bird.vel.y > 1){
+        bird.img = flapDownImg;
+        bird.rotation = 30;
 
-  }
+    }
 
-  else{
-    bird.img = flapMidImg;
-    bird.rotation = 0;
-  }
+    else{
+        bird.img = flapMidImg;
+        bird.rotation = 0;
+    }
 
-  //birdmovemtn
-  bird.x = bird.x + 3;
-  camera.x = bird.x;
-  floor.x = bird.x;
+    //birdmovemtn
+    bird.x = bird.x + 3;
+    camera.x = bird.x;
+    floor.x = bird.x;
 
-  if (frameCount === 1) {
-    spawnPipePair(); //custom founctionw
-  }
+    if (frameCount === 1) {
+        spawnPipePair(); //custom founctionw
+    }
 
-  else if(frameCount % 120 ==0) {
-    spawnPipePair();
-  }
+    else if(frameCount % 120 ==0) {
+        spawnPipePair();
+    }
 
-  if (bird.collides(pipeGroup) || bird.collides(floor) ) {
-    noLoop();
-  }
+    if (bird.collides(pipeGroup) || bird.collides(floor) ) {
+        noLoop();
+    }
 
-  // if(mouse.press()){
-  //   new Sprite(mouse.x, mouse.y, 30, 30, 'dynamic');
-  // }
+    // if(mouse.press()){
+    //   new Sprite(mouse.x, mouse.y, 30, 30, 'dynamic');
+    // }
 
-  fill("blue");
-  textSize(14);
-  text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
-  text('isMoving: ' + bird.isMoing, 10, 40);
-  text('sleeping: ' + bird.sleeping, 10, 60);
+    fill("blue");
+    textSize(14);
+    text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
+    text('isMoving: ' + bird.isMoing, 10, 40);
+    text('sleeping: ' + bird.sleeping, 10, 60);
 
-  bird.x += 3;
-  camera.x = bird.x;
-  floor.x = bird.x;
+    bird.x += 3;
+    camera.x = bird.x;
+    floor.x = bird.x;
 
-  if (bird.collides(pipeGroup) || bird.collides(floor)){
-    gameoverLabel = new sprite(width/2, height/2, 192, 42)
-    gameoverLabel.img = 
-    gameoverLabel
-  }
+    if (bird.collides(pipeGroup) || bird.collides(floor)){
+        gameoverLabel = new sprite(width/2, height/2, 192, 42)
+        gameoverLabel.img = 
+        gameoverLabel
+    }
 
 
 }
