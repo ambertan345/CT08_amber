@@ -20,7 +20,7 @@ function preload(){
 
   pipeImg = loadImage('assets/pipe-green.png'); 
 
-  gameover
+  gameoverImg = loadImage('asset')
 }
 
 function setup(){
