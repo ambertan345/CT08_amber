@@ -87,17 +87,17 @@ function draw(){
     camera.x = bird.x;
     floor.x = bird.x;
 
-  if (frameCount === 1) {
+    if (frameCount === 1) {
     spawnPipePair(); //custom founctionw
-  }
+    }
 
-  else if(frameCount % 120 ==0) {
+    else if(frameCount % 120 ==0) {
     spawnPipePair();
-  }
+    }
 
-  if (bird.collides(pipeGroup) || bird.collides(floor) ) {
+    if (bird.collides(pipeGroup) || bird.collides(floor) ) {
     noLoop();
-  }
+    }
 
   // if(mouse.press()){
   //   new Sprite(mouse.x, mouse.y, 30, 30, 'dynamic');
