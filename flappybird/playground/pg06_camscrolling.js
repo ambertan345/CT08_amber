@@ -184,7 +184,8 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
 
   //clear all old digit sprites
   scoreDigit.removeAll();
-  //make it a string 
+  //make it a string so can get each digit indiv rather than a value
+  let scoreStr = str(score)
 } 
 
 function spawnPipePair(){
