@@ -8,6 +8,9 @@ let pipeImg;//pipe image
 let pipeGroup;// to organise
 let bottomPipe, topPipe; //bottom first, then top pipe
 
+let startScreenLabel;
+let startScreenImg;
+
 function preload(){
   flapMidImg = loadImage('assets/yellowbird-midflap.png');
   bg = loadImage('assets/background-day.png');
@@ -21,6 +24,8 @@ function preload(){
   pipeImg = loadImage('assets/pipe-green.png'); 
 
   gameoverImg = loadImage('assets/gameover.png');
+
+  startScreenImg = loadImage('assets/messsage.png')
 }
 
 function setup(){
@@ -49,6 +54,9 @@ function setup(){
   floor.img = base
 
   pipeGroup = new Group()
+
+  startScreenLabel = new Sprite(width/2, height/2, 50, 50, 'none');
+  startScreenLabel.img = startScreenImg;
 }
 
 function draw(){
@@ -178,9 +186,7 @@ function draw(){
         gameoverLabel.img = 
         gameoverLabel
     }
-
-
-  }
+}
 
 
 
