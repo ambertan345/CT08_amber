@@ -61,6 +61,12 @@ function setup(){
 
 function draw(){
   image(bg, 0, 0, width, height);
+  fill("blue");
+  textSize(14);
+  text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
+  text('isMoving: ' + bird.isMoing, 10, 40);
+  text('sleeping: ' + bird.sleeping, 10, 60);
+
 
   if (kb.presses('space') || mouse.presses()){
     startGame = true;
@@ -126,13 +132,6 @@ function draw(){
     camera.x = bird.x;
     floor.x = bird.x;
 
-    if (bird.collides(pipeGroup) || bird.collides(floor)){
-        gameoverLabel = new sprite(width/2, height/2, 192, 42)
-        gameoverLabel.img = 
-        gameoverLabel
-    }
-
-    
     if ( kb.presses('space') || mouse.presses()) {
         bird.vel.y = -5;
         bird.sleeping = false;
@@ -168,26 +167,13 @@ function draw(){
         spawnPipePair();
     }
 
-    if (bird.collides(pipeGroup) || bird.collides(floor) ) {
-        noLoop();
-    }
-
-    // if(mouse.press()){
-    //   new Sprite(mouse.x, mouse.y, 30, 30, 'dynamic');
-    // }
-
-    fill("blue");
-    textSize(14);
-    text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
-    text('isMoving: ' + bird.isMoing, 10, 40);
-    text('sleeping: ' + bird.sleeping, 10, 60);
-
-    
-
     if (bird.collides(pipeGroup) || bird.collides(floor)){
         gameoverLabel = new sprite(width/2, height/2, 192, 42)
-        gameoverLabel.img = 
-        gameoverLabel
+        gameoverLabel.img = gameoverLabel.img = gameoverImg;
+        gameoverLabel.layer = 100;
+        gameoverLabel.x = camera.x
+
+        noLoop();
     }
   }
 }
