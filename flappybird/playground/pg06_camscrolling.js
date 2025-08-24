@@ -176,10 +176,13 @@ function draw(){
 
         noLoop();
     }
+    drawScore(width/2, 20, ScreenOrientation, 24, 36)
   }
 }
 
-
+function drawScore(x, y, score, digitWidth, digitHeight) {
+  
+} 
 
 function spawnPipePair(){
   let gap = 60;
