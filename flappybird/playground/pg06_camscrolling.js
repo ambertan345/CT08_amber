@@ -68,6 +68,11 @@ function draw(){
   }
 
   if (startGame){
+
+    bird.x += 3;
+    camera.x = bird.x;
+    floor.x = bird.x;
+    
     if ( kb.presses('space') || mouse.presses()) {
     bird.vel.y = -5;
     bird.sleeping = false;
