@@ -77,15 +77,15 @@ function draw(){
 
     }
 
-   else{
+    else{
     bird.img = flapMidImg;
     bird.rotation = 0;
-  }
+    }
 
   //birdmovemtn
-  bird.x = bird.x + 3;
-  camera.x = bird.x;
-  floor.x = bird.x;
+    bird.x = bird.x + 3;
+    camera.x = bird.x;
+    floor.x = bird.x;
 
   if (frameCount === 1) {
     spawnPipePair(); //custom founctionw
