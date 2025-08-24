@@ -186,7 +186,7 @@ function draw(){
         gameoverLabel.img = 
         gameoverLabel
     }
-}
+  }
 }
 
 
