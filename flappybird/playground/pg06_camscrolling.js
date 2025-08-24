@@ -184,7 +184,7 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
 
   //clear all old digit sprites
   scoreDigit.removeAll();
-  //make 
+  //make it a string 
 } 
 
 function spawnPipePair(){
