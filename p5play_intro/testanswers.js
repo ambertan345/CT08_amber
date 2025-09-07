@@ -15,7 +15,7 @@ function setup() {
     world.gravity.y = 1
 
     floor = new Sprite()
-
+    floor.collider = "static"
 }
 
 //forever block
