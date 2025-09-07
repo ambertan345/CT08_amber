@@ -11,6 +11,8 @@ let bottomPipe, topPipe; //bottom first, then top pipe
 let startScreenLabel;
 let startScreenImg;
 
+let score = 0;
+
 function preload(){
   flapMidImg = loadImage('assets/yellowbird-midflap.png');
   bg = loadImage('assets/background-day.png');
