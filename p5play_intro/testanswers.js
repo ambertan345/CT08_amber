@@ -8,7 +8,7 @@ function setup() {
     new Canvas(600, 400);
     background("blue");
 
-    new Sprite();
+    let abc = new Sprite();
     world.gravity.y=1
 }
 
