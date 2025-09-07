@@ -8,7 +8,8 @@ function setup() {
     new Canvas(600, 400);
     background("blue");
 
-    new Sprite()
+    new Sprite();
+    AudioWorkletNode.gravity.y=1
 }
 
 //forever block
