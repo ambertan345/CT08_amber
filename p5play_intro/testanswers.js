@@ -16,7 +16,7 @@ function setup() {
 
     floor = new Sprite()
     floor.width = 300
-    floor.h = 35
+    floor.height = 35
     floor.y = 20
     floor.collider = "static"
 }
