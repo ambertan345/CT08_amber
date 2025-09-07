@@ -5,7 +5,7 @@ let ball;
 function setup() {
     console.log("called once");
     //
-    new CanvasCaptureMediaStreamTrack(400, 500)
+    new Canvas(400, 500)
 }
 
 //forever block
