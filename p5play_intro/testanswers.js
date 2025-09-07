@@ -20,6 +20,7 @@ function draw() {
     background("blue"); //erase background
 
     if (mouse.presses()) {
+        let b = new Sprite( mouseX, mouseY );
         
     }
 }
