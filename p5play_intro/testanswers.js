@@ -14,7 +14,7 @@ function setup() {
     //abc.y = 50;
     world.gravity.y = 1
 
-    let abrecc = new Sprite(5, 5, 20, 10, 10)
+    let floor = new Sprite(5, 5, 20, 10, 10)
 
 }
 
