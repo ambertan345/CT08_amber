@@ -1,10 +1,10 @@
- // variables
+// variables
 let floor;
 let ball;
 
- function setup() {
+function setup() {
     console.log("called once");
- }
+}
 
  //forever block
  function draw() {
