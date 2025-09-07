@@ -10,6 +10,8 @@ function setup() {
 
     let abc = new Sprite();
     abc.diameter = 50;
+
+    //abc
     // world.gravity.y=1
 }
 
