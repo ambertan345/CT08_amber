@@ -130,5 +130,6 @@ function drawScore() {
 
   //clear all old digit sprites
   scoreDigits.removeAll();
-  
+  let scoreStr = str(score)
+  let score
 }
