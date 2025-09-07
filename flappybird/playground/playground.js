@@ -134,4 +134,5 @@ function drawScore() {
   let scoreArray = scoreStr.split(""); //["3", "9", "0" ]
   console.log(scoreArray);
     abc = new Sprite();
+    
 }
