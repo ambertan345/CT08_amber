@@ -129,5 +129,6 @@ function spawnPipePair(){
 function drawScore() {
 
   //clear all old digit sprites
+  scoreDigits.removeAll();
   
 }
