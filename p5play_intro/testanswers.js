@@ -15,11 +15,11 @@ function setup() {
     world.gravity.y = 1
 
     //                  x    y    w   h   collider
-    floor = new Sprite(300, 200, 300, 35, "static")
-    floor.width = 300
-    floor.height = 35
-    floor.y = 20
-    floor.collider = "static"
+    floor = new Sprite(300, 200, 300, 35, "static");
+    floor.width = 300;
+    floor.height = 35;
+    floor.y = 20;
+    floor.collider = "static";
 }
 
 //forever block
