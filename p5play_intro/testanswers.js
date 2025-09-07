@@ -18,4 +18,8 @@ function setup() {
 //forever block
 function draw() {
     background("blue"); //erase background
+
+    if (condition) {
+        
+    }
 }
