@@ -14,7 +14,7 @@ function setup() {
     //abc.y = 50;
     world.gravity.y = 1
 
-    //                  w    h  
+    //                  x    y    w   h   collider
     floor = new Sprite(300, 200, 300, 35, "static")
     floor.width = 300
     floor.height = 35
