@@ -9,7 +9,7 @@ function setup() {
     background("blue");
 
     let abc = new Sprite();
-    abc.diameter
+    abc.diameter = 50;
     world.gravity.y=1
 }
 
