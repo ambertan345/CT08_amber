@@ -8,7 +8,7 @@ let pipeImg;//pipe image
 let pipeGroup;// to organise
 let bottomPipe, topPipe; //bottom first, then top pipe
 
-let score = 0;
+let score = 200;
 
 function preload(){
   flapMidImg = loadImage('assets/yellowbird-midflap.png');
