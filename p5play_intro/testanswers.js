@@ -7,7 +7,8 @@ function setup() {
     //          w    h
     new Canvas(600, 400);
     background("blue");
-    
+
+    new SpeechRecognitionResult()
 }
 
 //forever block
