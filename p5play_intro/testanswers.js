@@ -13,6 +13,7 @@ function setup() {
 
     //abc.y = 50;
     world.gravity.y = 1
+    
 }
 
 //forever block
