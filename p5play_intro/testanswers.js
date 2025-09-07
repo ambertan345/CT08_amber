@@ -4,6 +4,8 @@ let ball;
 
 function setup() {
     console.log("called once");
+    //
+    new Canv
 }
 
 //forever block
