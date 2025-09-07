@@ -9,7 +9,7 @@ function setup() {
     background("blue");
 
     new Sprite();
-    AudioWorkletNode.gravity.y=1
+    world.gravity.y=1
 }
 
 //forever block
