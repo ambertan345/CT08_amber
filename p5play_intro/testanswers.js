@@ -19,7 +19,7 @@ function setup() {
 function draw() {
     background("blue"); //erase background
 
-    if (condition) {
+    if (mouse.presses()) {
         
     }
 }
