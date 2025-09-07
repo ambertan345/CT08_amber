@@ -4,4 +4,7 @@
     console.log("called once");
  }
 
- //for
+ //forever block
+ function draw() {
+    
+ }
