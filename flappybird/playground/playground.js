@@ -8,6 +8,8 @@ let pipeImg;//pipe image
 let pipeGroup;// to organise
 let bottomPipe, topPipe; //bottom first, then top pipe
 
+let score = 0;
+
 function preload(){
   flapMidImg = loadImage('assets/yellowbird-midflap.png');
   bg = loadImage('assets/background-day.png');
@@ -122,4 +124,8 @@ function spawnPipePair(){
   pipeGroup.add(topPipe);
 
   pipeGroup.layer = 0; //back most layer
+}
+
+function drawScore() {
+  
 }
