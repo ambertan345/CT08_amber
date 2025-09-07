@@ -131,5 +131,5 @@ function drawScore() {
   //clear all old digit sprites
   scoreDigits.removeAll();
   let scoreStr = str(score)
-  let scoreArray = scoreStr.split(""); //["3", "9", ""]
+  let scoreArray = scoreStr.split(""); //["3", "9", "0" ]
 }
