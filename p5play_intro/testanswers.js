@@ -17,5 +17,5 @@ function setup() {
 
 //forever block
 function draw() {
-    // background("blue");
+    // background("blue"); //erase background
 }
