@@ -132,4 +132,5 @@ function drawScore() {
   scoreDigits.removeAll();
   let scoreStr = str(score)
   let scoreArray = scoreStr.split(""); //["3", "9", "0" ]
+  console.log(scorerray);
 }
