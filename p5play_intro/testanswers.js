@@ -14,7 +14,7 @@ function setup() {
     //abc.y = 50;
     world.gravity.y = 1
 
-    floor = new Sprite()
+    floor = new Sprite(300, 200)
     floor.width = 300
     floor.height = 35
     floor.y = 20
