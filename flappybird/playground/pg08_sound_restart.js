@@ -122,7 +122,21 @@ function draw(){
     gameoverLabel.x = camera.xPos
 
     bgSound.stop();
-    
+    noLoop();
+
+    setTimeout(() => {
+        score = 0;
+        startGame = false;
+
+        pipes.removeAll()
+        bird.vel.x = 0;
+        bird.vel.y = 0;
+        bird.rotation = 0;
+        bird.collider = 'static';
+        bird.y = 200;
+
+        loop();
+    },3000);
   }
 }
 
