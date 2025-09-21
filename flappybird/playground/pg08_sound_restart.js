@@ -116,7 +116,7 @@ function draw(){
 
   if (bird.collides(pipeGroup) || bird.collides(floor) || bird.collides(sky)){
     failSound.play();
-    gameoverLabel
+    gameoverLabel = new Sprite(width/2, height/2, )
   }
 }
 
