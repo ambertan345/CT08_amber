@@ -132,6 +132,8 @@ function spawnPipePair(){
   pipeGroup.add(topPipe);
 
   pipeGroup.layer = 0; //back most layer
+
+  top
 }
 
 function drawScore(x, y, score, digitWidth, digitHeight) {
