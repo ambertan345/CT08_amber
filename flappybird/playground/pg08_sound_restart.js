@@ -115,7 +115,7 @@ function draw(){
   }
 
   if (bird.collides(pipeGroup) || bird.collides(floor) || bird.collides(sky)){
-    
+    failSound.play()
   }
 }
 
