@@ -104,7 +104,8 @@ function draw(){
   text('sleeping: ' + bird.sleeping, 10, 60);
 
   for (let pipe of pipeGroup) {
-    let 
+    let pipeRightEdge = pipe.x + pipe.w/2;
+    
   }
 }
 
