@@ -103,7 +103,9 @@ function draw(){
   text('isMoving: ' + bird.isMoing, 10, 40);
   text('sleeping: ' + bird.sleeping, 10, 60);
 
-  for (let pipe of pipeGroup)
+  for (let pipe of pipeGroup) {
+    let 
+  }
 }
 
 
