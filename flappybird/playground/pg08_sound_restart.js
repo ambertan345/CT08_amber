@@ -133,7 +133,7 @@ function spawnPipePair(){
 
   pipeGroup.layer = 0; //back most layer
 
-  top
+  topPipe.passed = false
 }
 
 function drawScore(x, y, score, digitWidth, digitHeight) {
