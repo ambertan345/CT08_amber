@@ -113,6 +113,10 @@ function draw(){
       score++;
     }
   }
+
+  if (bird.collides(pipeGroup) || bird.collides(floor) || bird.collides(sky)){
+    
+  }
 }
 
 
