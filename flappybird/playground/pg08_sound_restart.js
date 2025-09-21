@@ -120,6 +120,9 @@ function draw(){
     gameoverLabel.img = gameoverImg
     gameoverLabel.layer 
     gameoverLabel.x = camera.xPos
+
+    bgSound.stop();
+    
   }
 }
 
