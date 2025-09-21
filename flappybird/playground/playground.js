@@ -126,13 +126,34 @@ function spawnPipePair(){
   pipeGroup.layer = 0; //back most layer
 }
 
-function drawScore() {
+function drawScore(x, y, score, digitWidth, digitHeight) {
 
   //clear all old digit sprites
   scoreDigits.removeAll();
-  let scoreStr = str(score)
-  let scoreArray = scoreStr.split(""); //["3", "9", "0" ]
-  console.log(scoreArray);
-    abc = new Sprite();
-    
+  let scoreStr = str(score);
+  let totalWidth = scoreStr.length * digitWidth;
+  let startX = x - totalWidth / 2;
+  for (let i = 0; i < scoreStr.length; i++) {
+    let digit = int(scoreStr[i]);
+
+    let xPos = startX + i * digitWidth;
+
+    let digitSprite = new scoreDigits.Sprite(xPos, y, digitWidth, digitHeight);
+
+    digitSprite.img = numberImages[digit];
+  }
+
+  moveGroup(scoreDigitd,camera.x,24);
+
+}
+
+function moveGroup(group,targetX,spacing) {
+  let totalWidth = (group.length - 1) * spacing;
+
+  let startX = targetX - totalWidth/2;
+
+  for (let i = 0; i < group.length; i++) {
+    group[i].x = startX + i * spacing;
+  }
+
 }
