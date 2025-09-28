@@ -24,6 +24,7 @@ function setup() {
             },
             optional: [{minFrameRate: 60}]
         },
-        audio:
+        audio: false,
+        flipped: true,
     };
 }
