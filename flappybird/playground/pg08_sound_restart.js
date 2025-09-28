@@ -12,6 +12,8 @@ let gameoverLabel; // declare variable for game over sprite
 let startGame = false;
 
 let score = 200;
+let numberImages = []; // store number/score images
+let scoreDigits; // group for storing the different numbers
 let flapSound, pointSound, failSound;
 let bgSound;
 
