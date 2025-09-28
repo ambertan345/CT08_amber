@@ -165,7 +165,8 @@ function spawnPipePair(){
 
   topPipe.passed = false
 
-  //create 
+  //create the bottom pipe sprite
+  bottomPipe = newSprite(bird.x + 400, midY + gap / 2)
 }
 
 function drawScore(x, y, score, digitWidth, digitHeight) {
