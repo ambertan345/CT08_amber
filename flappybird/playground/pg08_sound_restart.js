@@ -50,7 +50,8 @@ function setup(){
 
   sky = new Sprite();
   sky.x = 0;
-
+  sly.y = 20;
+  sky.width
 
 
 
