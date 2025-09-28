@@ -3,6 +3,7 @@ let handPose;
 function preload() {
     let options = {
         flipped : true,
-        runtime : 'tfjs'
+        runtime : 'tfjs',
+        modelType : 
     }
 }
