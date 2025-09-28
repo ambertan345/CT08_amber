@@ -11,5 +11,5 @@ function preload() {
     }
 
     //loading the handpose model
-    handPose = m
+    handPose = ml5.hanpose(options);
 }
