@@ -48,7 +48,7 @@ function setup(){
   floor.collider = "static";
   floor.img = base
 
-  sky = new Sp
+  sky = new Sprite()
 
   pipeGroup = new Group()
 }
