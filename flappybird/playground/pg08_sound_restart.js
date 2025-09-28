@@ -94,89 +94,113 @@ function draw(){
      startScreenLabel.visible = false;
     bird.visible = true;
   }
-  
-  if (bird.vel.y < -1){
-    bird.img = flapUpImg;
-    bird.rotation = -1;
+    if (startGame){
+    bgSound.play();
+    // new code to make bird dynamic only when game start
+    bird.collider = "dynamic"; 
+  // make the bird move "forward"
+    bird.x += 2; // make the bird move forward
+    camera.x = bird.x; // "lock" the camera pos to the bird.x pos
+    floor.x = camera.x;// "lock" the floor pos to the bird.x pos
+    sky.x = camera.x;
 
-  }
-
-  else if (bird.vel.y > 1){
-    bird.img = flapDownImg;
-    bird.rotation = 30;
-
-  }
-
-  else{
-    bird.img = flapMidImg;
-    bird.rotation = 0;
-  }
-
-  //birdmovemtn
-  bird.x = bird.x + 3;
-  camera.x = bird.x;
-  floor.x = bird.x;
-
-  if (frameCount === 1) {
-    spawnPipePair(); //custom founctionw
-  }
-
-  else if(frameCount % 120 ==0) {
-    spawnPipePair();
-  }
-
-  if (bird.collides(pipeGroup) || bird.collides(floor) ) {
-    noLoop();
-  }
-
-  // if(mouse.press()){
-  //   new Sprite(mouse.x, mouse.y, 30, 30, 'dynamic');
-  // }
-
-  fill("blue");
-  textSize(14);
-  text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
-  text('isMoving: ' + bird.isMoing, 10, 40);
-  text('sleeping: ' + bird.sleeping, 10, 60);
-
-  for (let pipe of pipeGroup) {
-    let pipeRightEdge = pipe.x + pipe.w/2;
-    let birdLeftEdge = bird.x - bird.w/2;
-
-    if (pipe.passed == false && pipeRightEdge < bird) {
-      pipe.passed = true;
-      pointSound.play();
-      score++;
+      // Apply upward push when space is pressed
+    if (kb.presses('space') || mouse.presses()) {
+      flapSound.play();
+      bird.vel.y = -5; // which direction do you think this is?
+      bird.sleeping = false; // wake up if sleeping
+     
     }
-  }
+    
+    // Activity: Change image according to flying action/ falling
+    if (bird.vel.y < -1) {
+       flapSound.play();
+      bird.img = flapUpImg; // flying upward
+      bird.rotation = -30; // rotate up
+    } 
+    else if (bird.vel.y > 1) {
+       flapSound.play();
+      bird.img = flapDownImg; // falling
+      bird.rotation = 30; // rotate down
+    } 
+    else {
+      bird.img = flapMidImg; // neutral
+      bird.rotation = 0;
+    }
 
-  if (bird.collides(pipeGroup) || bird.collides(floor) || bird.collides(sky)){
-    failSound.play();
-    gameoverLabel = new Sprite(width/2, height/2, 192, 42);
-    gameoverLabel.img = gameoverImg
-    gameoverLabel.layer 
-    gameoverLabel.x = camera.xPos
+    if (frameCount === 1){
+      spawnPipePair();
+    }
 
-    // bgSound.stop();
-    noLoop();
+    if (frameCount % 120 === 0){
+      spawnPipePair();
+    }
+    
+    // remove offscreenpipes
+    for (let pipe of pipeGroup){
+      if (pipe.x < camera.x - 250){ ///Note
+        pipe.remove();
+      }
+    }
 
-    setTimeout(() => {
+    for(let pipe of pipeGroup){
+      let pipeRightEdge = pipe.x + pipe.w/2;
+      let birdLeftEdge = bird.x - bird.w/2;
+
+      if(pipe.passed == false && pipeRightEdge < birdLeftEdge ){
+        pipe.passed = true;
+        pointSound.play();
+        score++;
+      }
+
+    }
+
+    drawScore(width/2, 20, score, 24, 36);
+
+    // End Game on Collision
+    // note that this is checking collision against the group
+    if (bird.collides(pipeGroup) || bird.collides(floor) || bird.collides(sky)){
+      failSound.play();
+      gameoverLabel = new Sprite(width/2, height/2, 192, 42);
+      gameoverLabel.img = gameoverImg;
+      gameoverLabel.layer = 100; // make the game over text come to front
+      gameoverLabel.x = camera.x;
+      bgSound.stop();
+      noLoop(); 
+
+      setTimeout(() => {
         score = 0;
         startGame = false;
 
-        pipeGroup.removeAll()
+        pipeGroup.removeAll();
         bird.vel.x = 0;
         bird.vel.y = 0;
         bird.rotation = 0;
         bird.collider = 'static';
         bird.y = 200;
+        bird.visible = false;
 
         gameoverLabel.remove();
         startScreenLabel.visible = true;
         startScreenLabel.x = bird.x;
-
+        startScreenLabel.y = height/2 - 50;
+        
         loop();
-    },3000);
+
+
+      },3000);
+
+    }
+
+
+
+    // Debug info (optional)
+    fill("blue");
+    textSize(14);
+    text('vel.y: ' + bird.vel.y.toFixed(2), 10, 20);
+    text('isMoving: ' + bird.isMoving, 10, 40);
+    text('sleeping: ' + bird.sleeping , 10, 60);
+    text('bird.x: ' + bird.x.toFixed(2), 10, 80);
   }
 }
 
