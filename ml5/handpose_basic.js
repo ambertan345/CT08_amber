@@ -10,5 +10,6 @@ function preload() {
 
     }
 
-    
+    //loading the handpose model
+    handPose = m
 }
