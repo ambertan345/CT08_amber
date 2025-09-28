@@ -167,7 +167,7 @@ function spawnPipePair(){
 
   //create the bottom pipe sprite
   bottomPipe = new Sprite(bird.x + 400, midY + gap / 2 + 200, 52, 320, 'static')
-  bottomPipe.img = pipe;
+  bottomPipe.img = pipeImg;
 
   pipeGroup.add(topPipe);
   pipeGroup.add(bottomPipe);
