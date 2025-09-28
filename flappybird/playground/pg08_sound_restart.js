@@ -26,7 +26,10 @@ function preload(){
       numberImages[i] = loadImage('assets/' + i +'.png');
     }
 
-  
+  flapSound = createAudio('assets/sfx_wing.mp3');
+    pointSound = createAudio('assets/sfx_point.mp3');
+    failSound = createAudio('assets/sfx_die.mp3');
+    bgSound = createAudio('assets/Luke-Bergs-Take-It-Easy(chosic.com).mp3');
 }
 
 function setup(){
