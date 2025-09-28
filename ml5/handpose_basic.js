@@ -5,6 +5,10 @@ function preload() {
         flipped : true,
         runtime : 'tfjs',
         modelType : "full",
-        detectorModelUrl : undefined
+        detectorModelUrl : undefined,
+        landmarkModeUrl : undefined,
+
     }
+
+    
 }
