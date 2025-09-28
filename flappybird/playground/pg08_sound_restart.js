@@ -121,7 +121,7 @@ function draw(){
     gameoverLabel.layer 
     gameoverLabel.x = camera.xPos
 
-    bgSound.stop();
+    // bgSound.stop();
     noLoop();
 
     setTimeout(() => {
