@@ -9,6 +9,9 @@ let pipeGroup;// to organise
 let bottomPipe, topPipe; //bottom first, then top pipe
 
 let score = 200;
+let flapSound, pointSound, failSound;
+let bgSound;
+
 
 function preload(){
   flapMidImg = loadImage('assets/yellowbird-midflap.png');
