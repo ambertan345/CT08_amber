@@ -150,8 +150,8 @@ function spawnPipePair(){
   let gap = 60;
   let midY = random(250, height-250);
   //
-  bottomPipe = new Sprite(bird.x + 400, midY +gap+200, 52, 320, "static");
-  bottomPipe.img = pipeImg;
+  // bottomPipe = new Sprite(bird.x + 400, midY +gap+200, 52, 320, "static");
+  // bottomPipe.img = pipeImg;
 
   pipeGroup.add(bottomPipe);
 
@@ -166,7 +166,7 @@ function spawnPipePair(){
   topPipe.passed = false
 
   //create the bottom pipe sprite
-  bottomPipe = new Sprite(bird.x + 400, midY + gap / 2 + 200)
+  bottomPipe = new Sprite(bird.x + 400, midY + gap / 2 + 200, 52, )
 }
 
 function drawScore(x, y, score, digitWidth, digitHeight) {
