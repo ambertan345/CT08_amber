@@ -52,6 +52,7 @@ function setup(){
   sky.x = 0;
   sly.y = 20;
   sky.width = width*2;
+  sky.visible = false;
   
 
 
