@@ -49,7 +49,8 @@ function setup(){
   bird.y = 200;
   bird.width = 30;
   bird.height = 30;
-  bird.img = flapMidImg
+  bird.img = flapMidImg;
+  bird.visible = false;
 
   bird.collider = 'dynamic';
   bird.mass = 2;
