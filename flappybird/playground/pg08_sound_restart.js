@@ -1,5 +1,5 @@
   // write your codes here
-let bird, floor;
+let bird, floor, sky;
 let flapMidImg, bg, base;
 
 let flapUpImg, flapDownImg;
