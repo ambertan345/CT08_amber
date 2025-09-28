@@ -53,7 +53,7 @@ function setup(){
   sly.y = 20;
   sky.width = width*2;
   sky.visible = false;
-  
+  sky.collider = "static";
 
 
 
