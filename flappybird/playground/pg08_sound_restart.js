@@ -95,7 +95,7 @@ function draw(){
     bird.visible = true;
   }
   if (startGame){
-    bgSound.play();
+    //bgSound.play();
     // new code to make bird dynamic only when game start
     bird.collider = "dynamic"; 
   // make the bird move "forward"
