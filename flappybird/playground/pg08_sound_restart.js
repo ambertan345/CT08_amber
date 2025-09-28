@@ -4,7 +4,7 @@ let flapMidImg, bg, base;
 
 let flapUpImg, flapDownImg;
 
-let pipeImg;//pipe image
+let pipe;//pipe image
 let pipeGroup;// to organise
 let bottomPipe, topPipe; //bottom first, then top pipe
 let gameoverImg; // declare variable for image
