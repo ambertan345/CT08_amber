@@ -19,8 +19,10 @@ function setup() {
     let constraints = {
         video:{
             mandatory: {
-                minWidth: videoW
-            }
+                minWidth: videoW,
+                minHeight: videoH
+            },
+            optional: [{minFrameRate}]
         }
     }
 }
