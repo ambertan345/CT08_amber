@@ -13,3 +13,6 @@ function preload() {
     //loading the handpose model
     handPose = ml5.hanpose(options);
 }
+function setup() {
+
+}
