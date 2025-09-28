@@ -49,7 +49,9 @@ function setup(){
   floor.img = base
 
   sky = new Sprite();
-  
+  sky.x = 0;
+
+
 
 
   pipeGroup = new Group()
