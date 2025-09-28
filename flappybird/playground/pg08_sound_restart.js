@@ -171,7 +171,7 @@ function spawnPipePair(){
 
   pipeGroup.add(topPipe);
   pipeGroup.add(bottomPipe);
-  
+  pipeGroup.layer = 0;
 }
 
 function drawScore(x, y, score, digitWidth, digitHeight) {
