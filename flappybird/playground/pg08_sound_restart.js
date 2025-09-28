@@ -7,6 +7,9 @@ let flapUpImg, flapDownImg;
 let pipeImg;//pipe image
 let pipeGroup;// to organise
 let bottomPipe, topPipe; //bottom first, then top pipe
+let gameoverImg; // declare variable for image
+let gameoverLabel; // declare variable for game over sprite
+let startGame = false;
 
 let score = 200;
 let flapSound, pointSound, failSound;
