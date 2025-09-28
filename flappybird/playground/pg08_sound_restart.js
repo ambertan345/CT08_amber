@@ -164,6 +164,8 @@ function spawnPipePair(){
 //   pipeGroup.layer = 0; //back most layer
 
   topPipe.passed = false
+
+  //create 
 }
 
 function drawScore(x, y, score, digitWidth, digitHeight) {
