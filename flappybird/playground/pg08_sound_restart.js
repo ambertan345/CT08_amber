@@ -159,9 +159,9 @@ function spawnPipePair(){
   topPipe.img = pipeImg;
   topPipe.rotation = 180; //semi-circle turn
 
-//   pipeGroup.add(topPipe);
+  //   pipeGroup.add(topPipe);
 
-//   pipeGroup.layer = 0; //back most layer
+  //   pipeGroup.layer = 0; //back most layer
 
   topPipe.passed = false
 
