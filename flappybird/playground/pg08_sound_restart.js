@@ -94,7 +94,7 @@ function draw(){
      startScreenLabel.visible = false;
     bird.visible = true;
   }
-    if (startGame){
+  if (startGame){
     bgSound.play();
     // new code to make bird dynamic only when game start
     bird.collider = "dynamic"; 
@@ -209,7 +209,7 @@ function draw(){
 function spawnPipePair(){
   let gap = 60;
   let midY = random(250, height-250);
-  //
+
   // bottomPipe = new Sprite(bird.x + 400, midY +gap+200, 52, 320, "static");
   // bottomPipe.img = pipeImg;
 
