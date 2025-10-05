@@ -50,6 +50,7 @@ function draw() {
 
     for (let i = 0 ; i < handslength; i++) {
         let hand = hands[i]; //left or right
-        
+
+        for (let j = 0 ; j < hand.keypoints.length; j++)
     }
 }
