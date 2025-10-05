@@ -33,5 +33,6 @@ function setup() {
     video.size(600, 400);
     video.hide();
 
-    handPose.detectStart
+    handPose.detectStart(video, gotHands);
+    
 }
