@@ -28,5 +28,6 @@ function setup() {
         flipped: true,
     };
 
+    //create webcam
     
 }
