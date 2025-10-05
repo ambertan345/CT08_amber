@@ -37,7 +37,7 @@ function setup() {
 
 }
 function draw() {
-    image()
+    image(video, 0, 0, videoW, videoH)
 }
 function gotHands(results) {
     hands = results
