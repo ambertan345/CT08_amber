@@ -29,5 +29,6 @@ function setup() {
     };
 
     //create webcam
-    video = createCapture()
+    video = createCapture(constraints);
+    video.size =
 }
