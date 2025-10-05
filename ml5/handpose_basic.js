@@ -1,6 +1,8 @@
 let handPose;
 let videoW = 640;
-let video
+let videoH = 480;
+let video;
+let
 function preload() {
     let options = {
         flipped : true,
