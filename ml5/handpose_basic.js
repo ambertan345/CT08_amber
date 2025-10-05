@@ -22,7 +22,8 @@ function setup() {
 
     fingerTip = new Sprite();
     fingerTip.diameter = 60;
-    fingerTip
+    fingerTip.collider = 'kinematic';
+    
     let constraints = {
         video:{
             mandatory: {
