@@ -49,6 +49,7 @@ function draw() {
     image(video, 0, 0, videoW, videoH)
 
     for (let i = 0 ; i < handslength; i++) {
+        let hand = hands[i]; //left or right
         
     }
 }
