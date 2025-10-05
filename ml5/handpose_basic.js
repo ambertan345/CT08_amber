@@ -44,7 +44,7 @@ function setup() {
 function draw() {
     image(video, 0, 0, videoW, videoH)
 
-    for (let i = 0 ; i < handslength; i++) {
+    for (let i = 0 ; i < hands.length; i++) {
         let hand = hands[i]; //left or right
 
         for (let j = 0 ; j < hand.keypoints.length; j++) {
