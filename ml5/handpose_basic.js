@@ -32,5 +32,6 @@ function setup() {
     video = createCapture(constraints);
     video.size(600, 400);
     video.hide();
-    
+
+    handPose.detectStart
 }
