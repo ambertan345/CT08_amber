@@ -40,9 +40,12 @@ function setup() {
     handPose.detectStart(video,gotHands);
 
 }
-function draw() {
-    image(video, 0, 0, videoW, videoH)
-}
+
 function gotHands(results) {
     hands = results
+}
+
+function draw() {
+    image(video, 0, 0, videoW, videoH)
+    
 }
