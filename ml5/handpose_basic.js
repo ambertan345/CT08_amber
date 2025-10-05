@@ -34,7 +34,7 @@ function setup() {
 
     //create webcam
     video = createCapture(constraints);
-    video.size(600, 400);
+    video.size(640, 480);
     video.hide();
 
     handPose.detectStart(video, gotHands);
