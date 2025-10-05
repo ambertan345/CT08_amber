@@ -37,7 +37,7 @@ function setup() {
 
 }
 function draw() {
-    
+    image()
 }
 function gotHands(results) {
     hands = results
