@@ -41,10 +41,6 @@ function setup() {
 
 }
 
-function gotHands(results) {
-    hands = results
-}
-
 function draw() {
     image(video, 0, 0, videoW, videoH)
 
@@ -57,4 +53,8 @@ function draw() {
             circle (keypoint.x, keypoint.y, 10);
         }
     }
+}
+
+function gotHands(results) {
+    hands = results
 }
