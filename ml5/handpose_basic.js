@@ -30,5 +30,6 @@ function setup() {
 
     //create webcam
     video = createCapture(constraints);
-    video.size =
+    video.size(600, 400);
+    video
 }
