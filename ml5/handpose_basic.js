@@ -29,5 +29,5 @@ function setup() {
     };
 
     //create webcam
-    
+    video = createCapture()
 }
