@@ -60,7 +60,8 @@ function setup() {
 
     topWall = new Sprite(width/2, 0, width, 10, 'static')
     bottomWall = new Sprite(width/2, height, width, 10, 'static')
-    
+    // leftWall =
+    // rightWall =
 
 }
 
