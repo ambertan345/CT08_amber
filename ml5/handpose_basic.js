@@ -49,7 +49,7 @@ function setup() {
     balloon.diameter = 60;
     balloon.collider = 'dynamic';
     balloon.color = 'red';
-    balloon
+    balloon.x = width
 
 }
 
