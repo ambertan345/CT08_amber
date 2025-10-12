@@ -8,7 +8,7 @@ function setup() {
     inputText.position(200, height - 80);
     inputText.input(updateText);
 
-    colorPicker = createColorPicker("")
+    colorPicker = createColorPicker("#63c1a6ff")
 }
 function draw() {
 
