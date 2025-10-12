@@ -19,13 +19,13 @@ function draw() {
     fill(0);
     text("Pick a color", 20, 50)
 
-    fill(0);
-    textSize(28);
-    textAlign(CENTER, CENTER);
-    text(userText, width/2, 180);
-    
+    // fill(0);
+    // textSize(28);
+    // textAlign(CENTER, CENTER);
+    // text(userText, width/2, 180);
+
 }
 function updateText() {
-    userText = this.value();
-    return 
+    // userText = this.value();
+    // return 
 }
