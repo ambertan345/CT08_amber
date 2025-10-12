@@ -43,7 +43,7 @@ function setup() {
 
     handPose.detectStart(video,gotHands);
 
-    
+    world.gravity.y = 0;
 
 }
 
