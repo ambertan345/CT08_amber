@@ -5,7 +5,7 @@ let video;
 let hands = [];
 let fingerTip;
 let balloon;
-let bottomWall, 
+let bottomWall, topWall, 
 
 function preload() {
     let options = {
@@ -58,7 +58,8 @@ function setup() {
     balloon.mass = 2;
     balloon.drag = 0.01;
 
-    topWall = newSprite(width/2, 0, width, 10, 'static')
+    topWall = new Sprite(width/2, 0, width, 10, 'static')
+    bottomWall = new Sprite(width/2, height, width, 10, 'static')
 
 
 }
