@@ -5,7 +5,7 @@ let video;
 let hands = [];
 let fingerTip;
 let balloon;
-let bottomWall, topWall, 
+let bottomWall, topWall, leftWall, rightWall;
 
 function preload() {
     let options = {
@@ -60,7 +60,7 @@ function setup() {
 
     topWall = new Sprite(width/2, 0, width, 10, 'static')
     bottomWall = new Sprite(width/2, height, width, 10, 'static')
-
+    
 
 }
 
