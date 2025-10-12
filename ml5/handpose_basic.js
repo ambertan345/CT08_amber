@@ -43,6 +43,8 @@ function setup() {
 
     handPose.detectStart(video,gotHands);
 
+    
+
 }
 
 function draw() {
