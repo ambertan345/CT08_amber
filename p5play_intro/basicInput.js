@@ -12,7 +12,9 @@ function setup() {
     colorPicker.position =(120, 32);
 }
 function draw() {
-    background(colorPicker)
+    background(colorPicker.value());
+
+    textSIze(16)
 }
 function updateText() {
     userText = this.value();
