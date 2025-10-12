@@ -14,7 +14,10 @@ function setup() {
 function draw() {
     background(colorPicker.value());
 
-    textSIze(16)
+    textSIze(16);
+    textAlign(LEFT);
+    fill(0);
+    
 }
 function updateText() {
     userText = this.value();
