@@ -14,10 +14,12 @@ function setup() {
 function draw() {
     background(colorPicker.value());
 
-    textSIze(16);
+    textSize(16);
     textAlign(LEFT);
     fill(0);
-    text("Pick a color")
+    text("Pick a color", 20, 50)
+
+    
 }
 function updateText() {
     userText = this.value();
