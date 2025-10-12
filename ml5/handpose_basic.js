@@ -46,6 +46,7 @@ function setup() {
     world.gravity.y = 0;
 
     balloon = new Sprite();
+    balloon.diameter = 60;
     
 
 }
