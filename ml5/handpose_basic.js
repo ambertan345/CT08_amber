@@ -3,6 +3,7 @@ let videoW = 640;
 let videoH = 480;
 let video;
 let hands = [];
+let finger
 
 function preload() {
     let options = {
