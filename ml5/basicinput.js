@@ -12,4 +12,6 @@ function setup() {
 function draw() {
 
 }
-function updateText()
+function updateText() {
+    userText = this.value()
+}
