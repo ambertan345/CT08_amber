@@ -17,7 +17,7 @@ function draw() {
     textSIze(16);
     textAlign(LEFT);
     fill(0);
-    
+    text("Pick a color")
 }
 function updateText() {
     userText = this.value();
