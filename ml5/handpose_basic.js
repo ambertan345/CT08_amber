@@ -45,6 +45,8 @@ function setup() {
 
     world.gravity.y = 0;
 
+    balloon 
+
 }
 
 function draw() {
