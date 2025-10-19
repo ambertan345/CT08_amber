@@ -115,6 +115,8 @@ function keyPressed() {
         score = 0;
 
         //reseting balloon state
-        balloon.
+        balloon.x = width/2;
+        balloon.y = 100;
+        balloon.vel.x = 
     }
 }
