@@ -79,7 +79,7 @@ function draw() {
 
     if (gameStarted == false) {
         textSize(28);
-        
+        textAlign(CENTER)
     }
 
     if (gameover == false) {
