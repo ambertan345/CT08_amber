@@ -79,7 +79,8 @@ function draw() {
 
     if (gameStarted == false) {
         textSize(28);
-        textAlign(CENTER ,CENTER)
+        textAlign(CENTER ,CENTER);
+        fill ("")
     }
 
     if (gameover == false) {
