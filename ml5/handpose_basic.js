@@ -110,6 +110,7 @@ function gotHands(results) {
 
 function keyPressed() {
     if (key === ' ') {
-        
+        gameStarted = true;
+        gameOver = false
     }
 }
