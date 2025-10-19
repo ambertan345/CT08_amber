@@ -83,7 +83,7 @@ function draw() {
         fill("black");
         textSize(20);
         text("Use index finger to bounce the ball. ", width/2, height/2 - 40);
-        textSize(28)
+        textSize(28);
     }
 
     if (gameover == false) {
