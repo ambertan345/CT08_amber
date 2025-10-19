@@ -50,6 +50,7 @@ function setup() {
 
     world.gravity.y = 0;
 
+    //sprite for balllooon
     balloon = new Sprite();
     balloon.diameter = 60;
     balloon.collider = 'dynamic';
@@ -85,7 +86,7 @@ function draw() {
         text("Use index finger to bounce the ball. ", width/2, height/2 - 40);
         textSize(28);
         text("Press space to start the game", width/2, height/2);
-        
+
     }
 
     if (gameover == false) {
