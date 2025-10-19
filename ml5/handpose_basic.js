@@ -66,7 +66,7 @@ function setup() {
     boundaryGroup = new Sprite();
     boundaryGroup.add(topWall);
     boundaryGroup.add(bottomWall);
-    boundaryGroup
+    boundaryGroup.add(leftWall)
 
 }
 
