@@ -111,6 +111,9 @@ function draw() {
         console.log("collided");
     }
 
+    fill(0);
+    
+
 }
 
 function gotHands(results) {
