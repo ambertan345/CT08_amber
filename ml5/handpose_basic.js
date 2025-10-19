@@ -8,7 +8,7 @@ let balloon;
 let bottomWall, topWall, leftWall, rightWall;
 
 //aduio;
-
+let 
 
 //gametstae variables
 
