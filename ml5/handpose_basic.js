@@ -78,7 +78,8 @@ function draw() {
     image(video, 0, 0, videoW, videoH)
 
     if (gameStarted == false) {
-        textSIze(28)
+        textSize(28);
+        
     }
 
     if (gameover == false) {
