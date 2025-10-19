@@ -7,6 +7,9 @@ let fingerTip;
 let balloon;
 let bottomWall, topWall, leftWall, rightWall;
 
+//aduio;
+
+
 //gametstae variables
 
 function preload() {
