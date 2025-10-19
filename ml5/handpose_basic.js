@@ -80,10 +80,11 @@ function draw() {
     if (gameStarted == false) {
         textSize(28);
         textAlign(CENTER ,CENTER);
+        fill("black")
         fill ("limegreen");
         textSize(20);
         text("Use index finger to bounce the ball. ", width/2, height/2 - 40);
-        
+
     }
 
     if (gameover == false) {
