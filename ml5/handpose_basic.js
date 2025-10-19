@@ -80,7 +80,8 @@ function draw() {
     if (gameStarted == false) {
         textSize(28);
         textAlign(CENTER ,CENTER);
-        fill ("")
+        fill ("limegreen")
+        textSize
     }
 
     if (gameover == false) {
