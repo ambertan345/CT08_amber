@@ -118,7 +118,8 @@ function keyPressed() {
         balloon.x = width/2;
         balloon.y = 100;
         balloon.vel.x = 0;
-        baloon.vel.y = 0;
-        
+        balloon.vel.y = 0;
+        balloon.collider = 
+
     }
 }
