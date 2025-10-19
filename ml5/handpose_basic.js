@@ -113,5 +113,8 @@ function keyPressed() {
         gameStarted = true;
         gameOver = false; //
         score = 0;
+
+        //reseting balloon state
+        balloon.
     }
 }
