@@ -112,6 +112,6 @@ function keyPressed() {
     if (key === ' ') {
         gameStarted = true;
         gameOver = false; //
-        
+        score = 0;
     }
 }
