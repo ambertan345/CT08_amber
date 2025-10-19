@@ -114,7 +114,7 @@ function draw() {
     fill(0);
     textSize(24);
     textAlign(LEFT, TOP);
-    text("Score: " + socre, 10, 10)
+    text("Score: " + socre, 10, 10);
 
 }
 
