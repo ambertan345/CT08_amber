@@ -102,6 +102,10 @@ function draw() {
             fingerTip.visible = false;
         }
     }
+
+    if (balloon.collides(fingerTip)) {
+        
+    }
 }
 
 function gotHands(results) {
