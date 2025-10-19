@@ -120,7 +120,8 @@ function keyPressed() {
         balloon.vel.x = 0;
         balloon.vel.y = 0;
         balloon.collider = 'dynamic';
-        balloon
+        balloon.bounciness = 1;
+        balloon.drag = 0.01
 
     }
 }
