@@ -63,6 +63,8 @@ function setup() {
     leftWall = new Sprite(0, height/2, 10, height, 'static')
     rightWall = new Sprite(0, height/2, 10, height, 'static')
 
+    boundaryGroup 
+
 }
 
 function draw() {
