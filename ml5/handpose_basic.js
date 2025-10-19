@@ -105,8 +105,9 @@ function draw() {
 
     if (balloon.collides(fingerTip)) {
         bounceSound.play();
+        console.log("collided")
     }
-    
+
 }
 
 function gotHands(results) {
