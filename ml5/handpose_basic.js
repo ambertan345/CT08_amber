@@ -7,6 +7,8 @@ let fingerTip;
 let balloon;
 let bottomWall, topWall, leftWall, rightWall;
 
+//gametstae variables
+
 function preload() {
     let options = {
         flipped : true,
