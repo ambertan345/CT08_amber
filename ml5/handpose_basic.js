@@ -86,6 +86,9 @@ function draw() {
             fingerTip.x = keypoint.x;
             fingerTip.y = keypoint.y;
         }
+        else{
+            fingerTip.visible = false;
+        }
     }
 }
 
