@@ -82,7 +82,7 @@ function draw() {
         textAlign(CENTER ,CENTER);
         fill ("limegreen");
         textSize(20);
-        text
+        text("Use index finger to bounce the ball. ")
     }
 
     if (gameover == false) {
