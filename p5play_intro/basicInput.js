@@ -47,5 +47,5 @@ function setup() {
     createCanvas(200, 200);
 
     inputText = createInput()
-    inputText.p
+    inputText.postition(width/2 - 80)
 }
