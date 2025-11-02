@@ -39,31 +39,31 @@
 
 
 
-let inputText;
-let userText = 'Your text here';
-let submitButton;
+// let inputText;
+// let userText = 'Your text here';
+// let submitButton;
 
-function setup() {
-    createCanvas(200, 200);
-    background(220);
-    inputText = createInput()
-    inputText.position(width/2 - 180, height - 180);
-    // inputText.input(updateText);
+// function setup() {
+//     createCanvas(200, 200);
+//     background(220);
+//     inputText = createInput()
+//     inputText.position(width/2 - 180, height - 180);
+//     // inputText.input(updateText);
 
-    submitButton = createButton("Show");
-    submitButton.mousePressed(displayInput);
-    submitButton.position(inputText.x + inputText.width + 10, inputText.y);
+//     submitButton = createButton("Show");
+//     submitButton.mousePressed(displayInput);
+//     submitButton.position(inputText.x + inputText.width + 10, inputText.y);
 
-}
+// }
 
-function displayInput() {
-    background(220);
-    const inputValue = inputText.value();
-    textSize(60);
-    textAlign(CENTER, CENTER);
-    text(inputValue, 200, 100);
+// function displayInput() {
+//     background(220);
+//     const inputValue = inputText.value();
+//     textSize(60);
+//     textAlign(CENTER, CENTER);
+//     text(inputValue, 200, 100);
     
-}
+// }
 
 let noun;
 let verb;
