@@ -45,7 +45,7 @@ let submitButton;
 
 function setup() {
     createCanvas(200, 200);
-
+    background(220);
     inputText = createInput()
     inputText.postition(width/2 - 80, height - 100);
     // inputText.input(updateText);
