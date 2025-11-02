@@ -40,4 +40,4 @@
 
 
 let inputText;
-let userText
+let userText = 
