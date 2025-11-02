@@ -44,5 +44,6 @@ let userText = 'Your text here';
 let submitButton;
 
 function setup() {
-    create Can
+    createCanvas(200, 200);
+    
 }
