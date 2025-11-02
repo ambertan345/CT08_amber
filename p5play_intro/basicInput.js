@@ -1,5 +1,6 @@
 let inputText;
 let userText = "Your Text Here";
+let c
 
 function setup() {
     createCanvas(600, 400);
