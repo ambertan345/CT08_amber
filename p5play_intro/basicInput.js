@@ -38,5 +38,9 @@
 // }
 
 function setup() {
+
+}
+
+function draw() {
     
 }
