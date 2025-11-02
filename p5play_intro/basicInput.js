@@ -26,6 +26,9 @@ function draw() {
     fill(255);
     rect(50, 100, 500, 160, 25);
 
+    fill(0);
+    
+
     // fill(0);
     // textSize(28);
     // textAlign(CENTER, CENTER);
