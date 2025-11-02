@@ -65,3 +65,5 @@ function displayInput() {
     
 }
 
+let noun;
+let
