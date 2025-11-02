@@ -97,5 +97,5 @@ function setup() {
 }
 
 function displayInput() {
-    
+    console.log
 }
