@@ -37,12 +37,3 @@ function updateText() {
     // return 
 }
 
-function setup() {
-    createCanvas(200, 200)
-
-}
-
-function draw() {
-    fill(0)
-    text()
-}
