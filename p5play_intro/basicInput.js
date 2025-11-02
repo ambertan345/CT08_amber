@@ -27,12 +27,9 @@ function draw() {
     rect(50, 100, 500, 160, 25);
 
     fill(0);
-    textSIze(28);
-
-    // fill(0);
-    // textSize(28);
-    // textAlign(CENTER, CENTER);
-    // text(userText, width/2, 180);
+    textSize(28);
+    textAlign(CENTER, CENTER);
+    text(userText, width/2, 180);
 
 }
 function updateText() {
