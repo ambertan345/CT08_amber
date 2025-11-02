@@ -66,4 +66,4 @@ function displayInput() {
 }
 
 let noun;
-let
+let verb;
