@@ -39,3 +39,5 @@
 
 
 
+let inputText;
+let userText
