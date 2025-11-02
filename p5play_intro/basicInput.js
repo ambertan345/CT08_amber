@@ -77,4 +77,16 @@ function setup() {
 
     noun = createInput("hello");
     noun.position(width/2, height - 180);
+     noun = createInput("hello");
+    noun.position(width/2, height - 180);
+
+     noun = createInput("hello");
+    noun.position(width/2, height - 180);
+
+     noun = createInput("hello");
+    noun.position(width/2, height - 180);
+
+     noun = createInput("hello");
+    noun.position(width/2, height - 180);
+    
 }
