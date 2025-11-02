@@ -84,10 +84,12 @@ function setup() {
     adjective = createInput("hello");
     adjective.position(width/2, height - 180);
 
-    noun = createInput("hello");
-    noun.position(width/2, height - 180);
+    adverb = createInput("hello");
+    adverb.position(width/2, height - 180);
 
-    noun = createInput("hello");
-    noun.position(width/2, height - 180);
+    place = createInput("hello");
+    place.position(width/2, height - 180);
+
+    
 
 }
