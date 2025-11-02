@@ -48,5 +48,6 @@ function setup() {
 
     inputText = createInput()
     inputText.postition(width/2 - 80, height - 100);
-    inputText.input
+    inputText.input(updateText);
+    
 }
