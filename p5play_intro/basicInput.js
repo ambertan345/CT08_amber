@@ -91,7 +91,7 @@ function setup() {
     place = createInput("hello");
     place.position(width/2, height - 180);
 
-    submitButo
+    submitButton = createButton("")
 
 
 }
