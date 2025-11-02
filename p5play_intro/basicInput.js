@@ -24,7 +24,7 @@ function draw() {
     text("Pick a color", 20, 50)
 
     fill(255);
-    rect()
+    rect(50, 100, 500, 160, 25);
 
     // fill(0);
     // textSize(28);
