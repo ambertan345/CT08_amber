@@ -61,5 +61,6 @@ function displayInput() {
     const inputValue = inputText.value();
     textSize(60);
     textAlign(CENTER, CENTER);
+    text(inputValue, 200, 100);
     
 }
