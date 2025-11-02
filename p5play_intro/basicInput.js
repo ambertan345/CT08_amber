@@ -23,7 +23,7 @@ function draw() {
     fill(0);
     text("Pick a color", 20, 50)
 
-    fill(0);
+    fill(255);
     rect()
 
     // fill(0);
