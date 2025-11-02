@@ -93,8 +93,9 @@ function setup() {
 
     submitButton = createButton("Generate Story");
     submitButton.mousePressed(displayInput);
-    submitButton.position
+    submitButton.position(width/2, height - 180);
+}
 
-
-
+function displayInput() {
+    
 }
