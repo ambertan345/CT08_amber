@@ -57,5 +57,6 @@ function setup() {
 }
 
 function displayInput() {
+    background(220);
     
 }
