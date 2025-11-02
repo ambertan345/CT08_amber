@@ -48,7 +48,7 @@ function setup() {
 
     inputText = createInput()
     inputText.postition(width/2 - 80, height - 100);
-    inputText.input(updateText);
+    // inputText.input(updateText);
 
     submitButton = createButton("Show");
     submitBUtton.mousePressed("displayInput");
