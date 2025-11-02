@@ -71,4 +71,6 @@ let adjective;
 let adverb;
 let place;
 
-
+function setup() {
+    createCanvas(600, 600);
+}
