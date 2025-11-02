@@ -51,5 +51,6 @@ function setup() {
     inputText.input(updateText);
 
     submitButton = createButton("Show");
-    submitBUtton.mousePressed("displayInput")
+    submitBUtton.mousePressed("displayInput");
+    submitButton.position(inputText)
 }
