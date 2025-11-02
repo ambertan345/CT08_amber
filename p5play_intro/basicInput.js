@@ -40,4 +40,5 @@
 
 
 let inputText;
-let userText = 
+let userText = 'Your text here';
+let submitButton
