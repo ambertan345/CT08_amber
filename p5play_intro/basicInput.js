@@ -52,5 +52,10 @@ function setup() {
 
     submitButton = createButton("Show");
     submitBUtton.mousePressed("displayInput");
-    submitButton.position(inputText.x + inputText)
+    submitButton.position(inputText.x + inputText.width + 10, inputText.y);
+
+}
+
+function displayInput() {
+    
 }
