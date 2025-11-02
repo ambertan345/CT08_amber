@@ -111,6 +111,10 @@ function draw() {
         console.log("collided");
     }
 
+    if (bounceCooldown > 0) {
+        bounceCooldown = bounceCooldown - deltaTime;
+    }
+
     fill(0);
     textSize(24);
     textAlign(LEFT, TOP);
