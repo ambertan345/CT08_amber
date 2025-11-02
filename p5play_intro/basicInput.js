@@ -70,6 +70,7 @@ let verb;
 let adjective;
 let adverb;
 let place;
+let submitButton;
 
 function setup() {
     createCanvas(600, 600);
@@ -90,6 +91,7 @@ function setup() {
     place = createInput("hello");
     place.position(width/2, height - 180);
 
-    
+    submitButo
+
 
 }
