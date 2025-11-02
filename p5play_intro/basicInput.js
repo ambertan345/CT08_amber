@@ -91,7 +91,8 @@ function setup() {
     place = createInput("hello");
     place.position(width/2, height - 180);
 
-    submitButton = createButton("")
+    submitButton = createButton("Generate Story");
+    submitButton
 
 
 }
