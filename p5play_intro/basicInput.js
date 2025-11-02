@@ -59,6 +59,7 @@ function setup() {
 function displayInput() {
     background(220);
     const inputValue = inputText.value();
-    textSize
+    textSize(60);
+    textAlign(CENTER, CENTER);
     
 }
