@@ -93,7 +93,7 @@ function setup() {
 
     submitButton = createButton("Generate Story");
     submitButton.mousePressed(displayInput);
-    
+    submitButton.position
 
 
 
