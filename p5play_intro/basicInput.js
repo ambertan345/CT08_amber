@@ -41,4 +41,8 @@
 
 let inputText;
 let userText = 'Your text here';
-let submitButton
+let submitButton;
+
+function setup() {
+    create Can
+}
