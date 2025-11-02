@@ -76,5 +76,5 @@ function setup() {
     background(220);
 
     noun = createInput("hello");
-    noun.position
+    noun.position(width/2, height - 180);
 }
